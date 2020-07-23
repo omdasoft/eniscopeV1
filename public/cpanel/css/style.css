@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+*{
+    font-family: 'Cairo', serif;
+}
+.form-control{
+    padding: 0 6px;
+}
+#app{
+    margin-top : 50px;
+
+}
+.panel-heading{
+    text-align: center;
+}
+
+th{
+    text-align: right;
+}
+.single-table td{
+    border: 1px solid #e0e0e0;
+    padding-right:20px !important;
+}
+.t-head{
+    background: #d0d0d0;
+    width: 20%;
+}
+
+/*login page style*/
+
+.login-page{
+  background-image: url(../img/bg2.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.login-box{
+    width:50%;
+    height:auto;
+    padding: 20px;
+    font-family: 'Cairo', serif;
+    background: #fff;
+    margin-top: 200px;
+}
+.login-box .logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-box .logo h2{
+    font-family: 'Cairo', serif;
+    color: #00c0ef;
+}
+.login-box .logo h3{
+    font-family: 'Cairo', serif;
+    color: #0f8ead;
+}
+
+.login-box-body .form-control{
+    text-align: right;
+    height: 45px;
+    background: #f4f4f4;
+    color: #000;
+    font-size: 18px;
+}
+.login-box-body input[type=submit]{
+    height: 40px;
+}
+.icheck > label{
+    color: #000;
+}
+/*exstra smal screen style*/
+@media(max-width:767px){
+    .login-box{
+        width:100%;
+        height:auto;
+        padding: 5px;
+        font-family: 'Cairo', serif;
+        margin: 0;
+    }
+    .login-box-body .form-control{
+        text-align: right;
+        height: 45px;
+        background: #f4f4f4;
+        border: 2px solid #ddd;
+        color: #000;
+        font-size: 12px;
+    }
+    .login-box .logo h2{
+        font-size: 18px;
+    }
+    .login-box .logo h3{
+        font-size: 16px;
+    }
+    
+    .login-box .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    svg {
+        touch-action: none;
+        width: 35%;
+    }
+    
+}
+
+

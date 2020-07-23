@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+*{
+    font-family: 'Cairo', serif;
+}
+body{
+    direction: rtl;
+    font-family: 'Cairo', serif;
+}
+/*owl cursor*/
+.owl-carousel{
+    direction: ltr;
+  }
+  .main-menu ul > li > a{
+      font-size: 15px;
+      line-height: 80px;
+  }
+  .main-menu ul li > ul{
+      text-align: right;
+  }
+  .main-menu ul li ul > li > a{
+      font-size: 15px;
+      line-height: 20px;
+  }
+  .pos_description .title1 .txt{
+    font-size: 30px;
+  }
+  .pos_description .title1 .txt b{
+    color: #3c8e1f;
+    font-weight: 500px;
+    font-size: 30px;
+  }
+  .pos_description .title2 .txt{
+      font-size: 40px;
+      font-weight: 100px;
+      font-family: 'Cairo', serif;
+  }
+
+  .section-title p{
+      line-height: 2em;
+      font-size: 16px;
+  }
+  p{
+      line-height: 35px;
+      font-size: 16px;
+  }
+  .mission-vission .video-content h6 {
+        font-size: 18px;
+    }
+  .logo-area img{
+      max-width:100%;
+      height:75px; 
+  }
+  .banner-area h1{
+      padding-top: 100px; 
+  }
+
+  .about-menu{
+      font-size: 16px;
+      line-height: 2em;
+  }
+  .successful-area{
+      direction: ltr;
+  }
+  .successful-area .successful-single{
+      float: right;
+  }
+  .sucs-count h3{
+    font-family: 'Cairo', serif;
+    font-weight: 50px;
+  }
+  .footer-copyright > p{
+    font-family: 'Cairo', serif;
+  }
+
+  .footer-area{
+      direction: rtl;
+  }
+
+  .sucs-count h3 span{
+    color: #3c8e1f;
+  }
+
+  .blogdetails-titel > h4{
+      padding-right: 50px;
+  }
+
+  .adrs-details ul li a{
+      float: right;
+      margin-left: 20px;
+  }
+
+
+  .adrs-details p {
+      padding-left: 26%;
+      line-height: 50px;
+  }
+
+  .icon-titel i{
+      float: right;
+      margin: 15px;
+
+  }
+
+  .mean-container .mean-nav ul li a:hover{
+    color: #3c8e1f;
+  }
+
+  .fotter-copyright p {
+      text-align: center;
+  }
+
+  .mission-vission .video-content p{
+      text-align: justify;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cntct-right-adrs .section-title h4 {
+        margin-top: 50px;
+    }
+    .banner-area{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .banner-area h1{
+        padding: 60px 0;
+    }
+
+  }
+
+
+  
+  @media only screen and (max-width: 767px) and (min-width: 480px){
+    .adrs-details p {
+        padding-right: 0;
+    }
+    .cntct-right-adrs .section-title h4{
+        margin-top: 50px;
+    }
+
+    .mean-container .mean-bar::after {
+        content: "انسكوب";
+        font-family: 'Cairo', serif;
+
+    }
+
+    .banner-area{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .banner-area h1{
+        padding: 40px 0;
+        font-size: 25px;
+    }
+
+    .section-title h4 {
+        font-size: 20px;
+    }
+
+    .footer-area{
+        padding: 50px 0;
+    }
+
+    .slider-area .nivo-caption{
+        top: 14%;
+    }
+
+
+}
